@@ -1,0 +1,11 @@
+
+server.port: 8081
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/academia?useTimezone=true&serverTimezone=UTC&useLegacyDate
+    username: tiglinux
+    password: 12345tiago
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
